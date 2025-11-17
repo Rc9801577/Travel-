@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading shadow */
+.t_shadow {
+  color: black;
+  text-shadow: 4px 6px 8px yellow;
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+/* Navigation bar */
+.navbar {
+  text-align: center;
+  background-color: #333;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+/* Image center + shadow */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td, th {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+.slide-title{
+    display: inline-block;
+    animation:slidein 3s ease-in-out infinite alternate;
+}
+@keyframes slidein {
+    from {
+        transform: translateX(-40px);
+        opacity:0.4;
+    }
+    to{
+        transform: translatex(40px);
+        opacity:1;
+    }
+    
+}
+    
